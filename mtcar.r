@@ -1,0 +1,8 @@
+library ('datasets')
+class(mtcar.df)
+mtcar.df <-as.data.frame(mtcars)
+str(mtcar.df)
+names(mtcar.df)
+head(mtcar.df)
+summary(mtcar.df)
+fivenum()
